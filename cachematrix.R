@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
      }
      
      #Setting the Inverse
-     setInverse-function(inverse){
+     setInverse<-function(inverse){
           i<-inverse
      }
      
