@@ -50,8 +50,15 @@ cacheSolve<-function(x,...){
           return(i)
      }
      
+     #Get the matrix
      newMatrix<-x$get()
+     
+     #Calculate the inverse
      inv<-solve(newMatrix)
+     
+     #Set the Inverse to the matrix
      x$setInverse(i)
+     
+     #Return the matrix
      i
 }
